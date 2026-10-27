@@ -17,3 +17,12 @@
 
 1. 숫자1
 2. 숫자2
+---
+# 2026.10.27 어려운 Git /Github
+
+## dhsmf Git 명령어
+```sh
+git init
+git config --list
+git config --global user. email "yoonsork48@gmail.com"
+```
