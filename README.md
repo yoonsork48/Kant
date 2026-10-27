@@ -1,6 +1,6 @@
-# Markdown 튜토리얼
+# 깃허브 기초
 
-## 헤더
+## 워킹 디렉토리(Working Directory)(작업공간)
 
 ```md
 # 헤더 1
@@ -8,21 +8,25 @@
 ### 헤더 3
 ```
 
-## 뷸렛 표기
+## 스테이징 영역(Staging Area)
 
-- 뷸렛 1
-- 뷸렛 2
+- 다음 커밋에 포함할 변경사항을 선택해 올려두는 공간
+- 빈칸
 
-## 숫자 표기
+## 리포지토리(Repository)(저장소)
 
-1. 숫자1
-2. 숫자2
+- 커밋이 영구적으로 기록되는 공간
+- 숫자2
 ---
-# 2026.10.27 어려운 Git /Github
+# 2026.10.27 어려운 Git / Github
 
-## dhsmf Git 명령어
+## 참 어려운 Git 명령어
 ```sh
-git init
-git config --list
-git config --global user. email "yoonsork48@gmail.com"
+- git status : 습관들여서 현재상황 확인
+- git add . : 현재 폴더(.)안에 즉, (스테이징 에리어)에 추가
+- git commit -m “어쩌구저쩌구” : 위의(.)안에 변경사항(”어쩌구저쩌구”)를 적어서  로컬에 올리는 것.
+- git push origin main : origin이라는 git허브 주소의 main에 업로드
+- git init
+- git config --list
+- git config --global user. email "yoonsork48@gmail.com"
 ```
